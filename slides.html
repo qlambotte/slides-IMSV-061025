@@ -339,7 +339,7 @@
 <li>Vers les slides: QR-code</li>
 </ul>
 
-<img data-src="figures/qrcode.png" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"><ul>
+<img data-src="assets/qrcode.png" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"><ul>
 <li>Vers le pdf (après le scan du QR-code): <a href="assets/slides.pdf" target="_blank">Ouvrir le PDF</a></li>
 </ul>
 </section>
@@ -923,7 +923,7 @@ v_1 &amp; v_2
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
+          var filterRegex = new RegExp("https:\/\/qlambotte\.github\.io\/slides-IMSV-061025\/");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
