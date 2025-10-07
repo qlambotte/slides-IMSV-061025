@@ -127,7 +127,7 @@ v_1 & v_2 & v_3
 \end{vmatrix}\\&=\begin{vmatrix}
  u_2 & u_3 \\
  v_2 & v_3 
-\end{vmatrix} \cdot \vect{i}+
+\end{vmatrix} \cdot \vect{i}-
 \begin{vmatrix}
  u_1 & u_3 \\
  v_1 & v_3 
